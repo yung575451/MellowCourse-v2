@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MellowCourse</string>
+    <string name="hello_again">Hello Again!</string>
+    <string name="welcome_back_we_miss_you_so_much">Welcome back. We miss you so much !</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="not_a_member">Not a member ?</string>
+    <string name="name_hint">Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="create_text">CREATE ACCOUNT</string>
+    <string name="have_account_sign_in">Have an account? Sign In</string>
+</resources>
