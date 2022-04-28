@@ -4,11 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.text.InputType;
 import android.util.Log;
 import android.view.View;
-import android.view.Window;
-import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
@@ -25,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
     private TextView forgetPasswordButton;
     private TextView createAccount;
+
 
     private String savePassword;
 
@@ -58,15 +56,15 @@ public class MainActivity extends AppCompatActivity {
             if(password.getInputType()== 129){
                 Log.d("main", "onClick: "+password.getInputType());
                 password.setInputType(144);
-                Picasso.get().load(R.drawable.ic_akar_icons_eye_open)
-                        .placeholder(R.drawable.ic_akar_icons_eye_slashed)
+                Picasso.get().load(R.drawable.ic_akar_icons_eye_slashed_login)
+                        .placeholder(R.drawable.ic_akar_icons_eye_open_login)
                         .fit()
                         .into(changePassword);
             }else {
                 Log.d("main", "onClick: "+password.getInputType());
                 password.setInputType(129);
-                Picasso.get().load(R.drawable.ic_akar_icons_eye_slashed)
-                        .placeholder(R.drawable.ic_akar_icons_eye_open)
+                Picasso.get().load(R.drawable.ic_akar_icons_eye_open_login)
+                        .placeholder(R.drawable.ic_akar_icons_eye_slashed_login)
                         .fit()
                         .into(changePassword);
             }

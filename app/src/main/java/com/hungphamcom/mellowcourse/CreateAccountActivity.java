@@ -6,11 +6,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -26,8 +24,8 @@ import com.google.firebase.firestore.CollectionReference;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
-import com.hungphamcom.mellowcourse.util.CourseApi;
-import com.squareup.picasso.Picasso;
+import com.hungphamcom.mellowcourse.util.UserApi;
+import com.hungphamcom.mellowcourse.util.Util;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -137,7 +135,7 @@ public class CreateAccountActivity extends AppCompatActivity {
                         @Override
                         public void onComplete(@NonNull Task<AuthResult> task) {
                             if (task.isSuccessful()) {
-                                //we take user to AddJournalActivity
+                                //we take user to AddUserActivity
                                 currentUser = firebaseAuth.getCurrentUser();
                                 assert currentUser != null;
                                 final String currentUserId = currentUser.getUid();
@@ -146,6 +144,7 @@ public class CreateAccountActivity extends AppCompatActivity {
                                 Map<String, String> userObj = new HashMap<>();
                                 userObj.put("userId", currentUserId);
                                 userObj.put("username", username);
+                                userObj.put("status", Util.KEY_USER);
 
                                 //save to our firestore database
                                 collectionReference.add(userObj)
@@ -161,14 +160,15 @@ public class CreateAccountActivity extends AppCompatActivity {
                                                                     String name = task.getResult()
                                                                             .getString("username");
 
-                                                                    CourseApi journalApi = CourseApi.getInstance(); //Global API
-                                                                    journalApi.setUserId(currentUserId);
-                                                                    journalApi.setUsername(name);
+                                                                    UserApi userApi = UserApi.getInstance(); //Global API
+                                                                    userApi.setUserId(currentUserId);
+                                                                    userApi.setUsername(name);
 
                                                                     Intent intent = new Intent(CreateAccountActivity.this,
                                                                             MainScreen.class);
                                                                     intent.putExtra("username", name);
                                                                     intent.putExtra("userId", currentUserId);
+                                                                    intent.putExtra("status",Util.KEY_USER);
                                                                     startActivity(intent);
 
 

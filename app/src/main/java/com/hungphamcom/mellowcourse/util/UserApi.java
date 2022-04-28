@@ -2,19 +2,20 @@ package com.hungphamcom.mellowcourse.util;
 
 import android.app.Application;
 
-public class CourseApi extends Application {
+public class UserApi extends Application {
     private String username;
     private String userId;
-    private static CourseApi instance;
+    private String status;
+    private static UserApi instance;
 
-    public static CourseApi getInstance() {
+    public static UserApi getInstance() {
         if (instance == null)
-            instance = new CourseApi();
+            instance = new UserApi();
         return instance;
 
     }
 
-    public CourseApi(){}
+    public UserApi(){}
 
 
     public String getUsername() {
@@ -31,5 +32,13 @@ public class CourseApi extends Application {
 
     public void setUserId(String userId) {
         this.userId = userId;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
     }
 }

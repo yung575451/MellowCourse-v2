@@ -94,7 +94,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical|end"
                 android:paddingEnd="10dp"
-                app:srcCompat="@drawable/ic_akar_icons_eye_slashed"
+                app:srcCompat="@drawable/ic_akar_icons_eye_slashed_login"
                 tools:ignore="RtlSymmetry" />
 
 
@@ -150,7 +150,7 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/ic_line_2"
+                app:srcCompat="@drawable/ic_line_2_login"
                 android:layout_gravity="center_vertical"/>
             <TextView
                 android:layout_width="wrap_content"
@@ -165,7 +165,7 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/ic_line_2"
+                app:srcCompat="@drawable/ic_line_2_login"
                 android:layout_gravity="center_vertical"/>
 
         </LinearLayout>
@@ -174,8 +174,8 @@
             android:id="@+id/googleSignIn_login"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/outline_google_logo"
-            app:srcCompat="@drawable/ic_google_logo"
+            android:background="@drawable/outline_google_logo_login"
+            app:srcCompat="@drawable/ic_google_logo_login"
             android:layout_gravity="center"
             android:elevation="5dp"
             android:layout_marginTop="15dp"

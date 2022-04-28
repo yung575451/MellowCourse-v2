@@ -10,4 +10,12 @@
     <string name="confirm_password">Confirm Password</string>
     <string name="create_text">CREATE ACCOUNT</string>
     <string name="have_account_sign_in">Have an account? Sign In</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="just_buy">Just Buy</string>
+    <string name="it_man">It Man</string>
+    <string name="Loren_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam egestas nisi, amet lobortis id tortor, est amet.</string>
+    <string name="Loren_ipsunP2">Tincidunt felis sagittis, amet lorem neque quam nibh mauris. Ut at et mauris est semper nisl, pulvinar. Est neque sem tincidunt placerat vulputate bibendum facilisis. At molestie euismod leo tellus vel urna.</string>
+    <string name="learn_more">Learn more</string>
+    <string name="Buy_Now">Buy Now</string>
 </resources>
