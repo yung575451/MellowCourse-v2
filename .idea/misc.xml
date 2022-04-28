@@ -17,6 +17,7 @@
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MellowCourse/app/src/main/res/drawable/yellow_outline.xml" value="0.1" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MellowCourse/app/src/main/res/font/nunito_light.xml" value="0.18333333333333332" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MellowCourse/app/src/main/res/layout-v28/activity_create_account.xml" value="0.17223910840932116" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MellowCourse/app/src/main/res/layout/activity_add_new_item.xml" value="0.29102564102564105" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MellowCourse/app/src/main/res/layout/activity_create_account.xml" value="0.33" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MellowCourse/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MellowCourse/app/src/main/res/layout/activity_main_screen.xml" value="0.2794871794871795" />
@@ -25,7 +26,7 @@
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MellowCourse/app/src/main/res/layout/fragment_profile.xml" value="0.29102564102564105" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MellowCourse/app/src/main/res/layout/fragment_shop.xml" value="0.29102564102564105" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MellowCourse/app/src/main/res/layout/fragment_wishlist.xml" value="0.29102564102564105" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/MellowCourse/app/src/main/res/layout/item_row_shop_fragment.xml" value="0.29102564102564105" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MellowCourse/app/src/main/res/layout/item_row_shop_fragment.xml" value="0.22" />
       </map>
     </option>
   </component>

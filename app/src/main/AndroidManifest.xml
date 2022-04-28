@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MellowCourse">
         <activity
+            android:name=".add_new_item"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="false" />
         <activity
