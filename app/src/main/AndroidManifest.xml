@@ -13,13 +13,13 @@
             android:name=".add_new_item"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".MainScreen"
             android:exported="false" />
         <activity
             android:name=".CreateAccountActivity"
             android:exported="false" />
         <activity
-            android:name=".MainScreen"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

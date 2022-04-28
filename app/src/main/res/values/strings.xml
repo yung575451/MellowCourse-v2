@@ -19,4 +19,9 @@
     <string name="learn_more">Learn more</string>
     <string name="Buy_Now">Buy Now</string>
     <string name="best_seller">Best Seller</string>
+    <string name="add_item">Add Item</string>
+    <string name="back_to_main_screen">Back to Main Screen</string>
+    <string name="item_name">Item Name</string>
+    <string name="price_add_new_item">Price ($)</string>
+    <string name="item_description">Item Description</string>
 </resources>
