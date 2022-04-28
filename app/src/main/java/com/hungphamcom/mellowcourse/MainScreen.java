@@ -7,6 +7,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewpager2.widget.ViewPager2;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.AttributeSet;
 import android.view.View;
@@ -73,7 +74,8 @@ public class MainScreen extends AppCompatActivity implements View.OnClickListene
                 mViewPager.setCurrentItem(0);
                 break;
             case R.id.addItem_mainScreen:
-                Toast.makeText(this, "add Item has been pressed", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(this, "add Item has been pressed", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(MainScreen.this,add_new_item.class));
                 break;
         }
     }

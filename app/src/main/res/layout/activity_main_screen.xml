@@ -35,6 +35,7 @@
             android:divider="@drawable/empty_tall_divider">
 
             <ImageView
+                android:id="@+id/addItem_mainScreen"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 app:srcCompat="@drawable/ic_plus_sign_mainscreen"
@@ -53,7 +54,6 @@
                 app:srcCompat="@drawable/ic_frame_48" />
 
             <ImageView
-                android:id="@+id/addItem_mainScreen"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="5dp"
