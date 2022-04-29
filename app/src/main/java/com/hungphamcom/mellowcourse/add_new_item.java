@@ -163,7 +163,7 @@ public class add_new_item extends AppCompatActivity implements View.OnClickListe
     }
 
     private void addItem() {
-        String name= sellerName_add_item.getText().toString().trim();
+        String name= itemName_add_item.getText().toString().trim();
         int price = Integer.parseInt(itemPrice_add_item.getText().toString().trim());
         String description=itemDescription_add_item.getText().toString().trim();
 
@@ -189,6 +189,8 @@ public class add_new_item extends AppCompatActivity implements View.OnClickListe
                             item.setDescription(description);
                             item.setImageUrl(imageUrl);
                             item.setTimeAdded(new Timestamp(new Date()));
+                            item.setPurchase(0);
+                            item.setReview(0);
                             item.setUsername(currentUserName);
                             item.setUserId(currentUserId);
 

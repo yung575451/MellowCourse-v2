@@ -7,6 +7,8 @@ public class Item {
     private int price;
     private String description;
     private String imageUrl;
+    private int purchase;
+    private int review;
     private String UserId;
     private Timestamp timeAdded;
     private String username;
@@ -78,5 +80,20 @@ public class Item {
 
     public void setUsername(String username) {
         this.username = username;
+    }
+    public int getPurchase() {
+        return purchase;
+    }
+
+    public void setPurchase(int purchase) {
+        this.purchase = purchase;
+    }
+
+    public int getReview() {
+        return review;
+    }
+
+    public void setReview(int review) {
+        this.review = review;
     }
 }

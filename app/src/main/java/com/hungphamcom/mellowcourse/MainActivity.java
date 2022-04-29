@@ -128,9 +128,9 @@ public class MainActivity extends AppCompatActivity {
                 @Override
                 public void onFailure(@NonNull Exception e) {
                     progressBar.setVisibility(View.INVISIBLE);
-                    Toast.makeText(MainActivity.this
-                            ,"Please enter email and password"
-                            ,Toast.LENGTH_LONG).show();
+//                    Toast.makeText(MainActivity.this
+//                            ,"Please enter email and password"
+//                            ,Toast.LENGTH_LONG).show();
                 }
             });
         }else {
